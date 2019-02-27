@@ -26,7 +26,6 @@ if(isset($_SESSION['admin_name'])){
             #content{
                 height: 300px;
                 width: 100%;
-                background: linear-gradient(to right, #e52d27, #b31217);
             }
             #carouselExampleCaptions{
                 width: 100%;
@@ -43,14 +42,11 @@ if(isset($_SESSION['admin_name'])){
                     height: 200px;
                 }
             }
-            .card:hover{
-                border:1px solid #e52d27;
-            }
         </style>
     </head>  
     <body style="margin-top: 60px;">
-        <div id="content">
-            <?php include 'includes/header.php'; ?>
+        <?php include 'includes/header.php'; ?>
+        <!--<div id="content" class="bg-dark">
             <div class="container-fluid">
                 <div class="row">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -95,7 +91,7 @@ if(isset($_SESSION['admin_name'])){
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <hr class="my-4" />
         <div class="container">
             <h4 class="text-center my-4"><b>Features</b></h4>
@@ -103,19 +99,25 @@ if(isset($_SESSION['admin_name'])){
                 <div class="card-deck">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <i class="fa fa-briefcase fa-3x text-danger" src="..." alt="Card image cap"></i>
-                            <h4 class="card-title text-danger">No bag Required</h4>
-                            <p class="card-text">Principals, Teachers and Students do not require any bag for carrying document.</p>
+                            <i class="fa fa-search fa-2x mb-2" src="..." alt="Card image cap"></i>
+                            <h4 class="card-title text-info">Track Your Food</h4>
+                            <p class="card-text">Track your food to get the details like place of production, farm etc.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="track.php"><button class="btn btn-sm btn-block btn-primary" type="button">Track</button></a>
                         </div>
                     </div>
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <i class="fa fa-book fa-3x text-danger" src="..." alt="Card image cap"></i>
-                            <h4 class="card-title text-danger">Online Books</h4>
-                            <p class="card-text">Access to bunch of online books of all boards (CBSE, State Boards etc.)</p>
+                            <i class="fa fa-user-circle fa-2x mb-2" src="..." alt="Card image cap"></i>
+                            <h4 class="card-title text-info">Register Yourself</h4>
+                            <p class="card-text">Unlock many exciting features after registration.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="register.php"><button class="btn btn-sm btn-block btn-primary" type="button">Go to Registration</button></a>
                         </div>
                     </div>
-                    <div class="card bg-light">
+                    <!--<div class="card bg-light">
                         <div class="card-body text-center">
                             <i class="fa fa-group fa-3x text-danger" src="..." alt="Card image cap"></i>
                             <h4 class="card-title text-danger">Discussion Forum</h4>
@@ -128,51 +130,10 @@ if(isset($_SESSION['admin_name'])){
                             <h4 class="card-title text-danger">24&times;7 Availability</h4>
                             <p class="card-text">Students can access their results and details any time.</p>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
-            <br />
-            <!--<div class="row">
-                <div class="card-deck">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <i class="fa fa-group fa-3x text-danger" src="..." alt="Card image cap"></i>
-                            <h5 class="card-title text-danger">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <i class="fa fa-group fa-3x text-danger" src="..." alt="Card image cap"></i>
-                            <h5 class="card-title text-danger">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <i class="fa fa-group fa-3x text-danger" src="..." alt="Card image cap"></i>
-                            <h5 class="card-title text-danger">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <i class="fa fa-group fa-3x text-danger" src="..." alt="Card image cap"></i>
-                            <h5 class="card-title text-danger">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <hr />
-            <h4 class="text-center"><b>Why Nobag <i class="fa fa-question-circle-o"> </i></b></h4>
-            <div class="row justify-content-center">
-                <video width="320" height="240" controls>
-                    <source src="Nobag_official.mp4" type="video/mp4">
-                    Your browser does not support the <code>video</code> tag.
-                </video>
-            </div>
-            <hr class="my-4" Why/>
+            <!--<hr class="my-4"/>
             <div class="row">
                 <div class="card w-100 text-center border-danger">
                     <div class="card-body">
@@ -182,7 +143,7 @@ if(isset($_SESSION['admin_name'])){
                         </blockquote>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
         <hr class="my-4" />
         <?php include 'includes/footer.php'; ?>
