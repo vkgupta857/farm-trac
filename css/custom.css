@@ -1,0 +1,19 @@
+body{
+    margin-top: 80px;
+}
+.navbar-dark{
+    background: linear-gradient(to right, #e52d27, #b31217);
+}
+footer{
+    background-color: #efefef;
+    padding:20px;
+}
+footer a{
+    color: #000;
+}
+footer a:hover{
+    color: #000;
+}
+.navbar-toggler{
+    border: none;
+}
