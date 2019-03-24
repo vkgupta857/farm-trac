@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Us | Nobag</title>
+        <title>Trac - Contact</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -50,7 +50,7 @@
                                         <dd>Gokalpur Jabalpur MP 482011</dd>
                                         <br />
                                         <dt><i class="fa fa-inbox"> </i> Email ID:</dt>
-                                        <dd><a href="mailto:support@nobag.co.in" style="color: inherit;">support@nobag.co.in</a></dd>
+                                        <dd><a href="mailto:support@nobag.co.in" style="color: inherit;">support@abc.com</a></dd>
                                         <br />
                                         <dt><i class="fa fa-phone"> </i> Contact Number:</dt>
                                         <dd><a href="tel:+91 9926131113" style="color: inherit;">+91 9926131113</a></dd>
@@ -67,8 +67,8 @@
                                                 <input class="form-control form-control-sm" name="name" id="name" type="text" required>
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <label for="email">Email</label>
-                                                <input class="form-control form-control-sm" name="email" id="email" type="email" required>
+                                                <label for="mobile">Mobile</label>
+                                                <input class="form-control form-control-sm" name="number" id="mobile" type="mobile" required>
                                             </div>
                                         </div>                           
                                         <div class="form-group">
