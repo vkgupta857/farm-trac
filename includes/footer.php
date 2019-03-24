@@ -2,12 +2,13 @@
     <div class="container">
         <div class="row">            
             <div class="col-md-6">
-                <h4> Farm Trac - Track Your Food</h4>
+                <h4> Trac - Know Your Food</h4>
                 <p>                            
-                    Address: Gokalpur, Jabalpur 482011<br />
-                    Contact: +91-9479475120<br/>
-                    Email: support@farmtrac.co.in<br/>
+                    Address: ADDR<br />
+                    Contact: +91-9000000000<br/>
+                    Email: support@example.com<br/>
                 </p>
+                <div id="google_translate_element"></div>
             </div>             
             <div class="col-md-3 col-xs-6">
                 <div class="footer-list">
@@ -36,7 +37,7 @@
         </div><hr />
         <div class="row">
             <div class="col-xs-12">
-                &copy; <?php echo date('Y');?> <a href="#"> Farm Trac</a>. All Rights Reserved.
+                &copy; <?php echo date('Y');?> <a href="#"> Trac</a>. All Rights Reserved.
             </div>   
         </div>
     </div>
